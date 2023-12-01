@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Review carousel</title>
-     
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-   />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
         <section class="container">
@@ -22,19 +21,17 @@
             <article class="review">
                 <div class="img-container">
                     <img src="" id="product-img" alt="" />
+                    <div class="button-container">
+                        <button class="prev-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
                 </div>
                 <h4 class="name"></h4>
                 <p class="price"></p>
-
-                <!-- prev next buttons-->
-                <div class="button-container">
-                    <button class="prev-btn">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="next-btn">
-                        <i class="fas fa-chevron-right"></i> 
-                    </button>
-                </div>
 
             </article>
         </section>
@@ -42,4 +39,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
